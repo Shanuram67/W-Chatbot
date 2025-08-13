@@ -1,0 +1,16 @@
+/* src/components/Navbar.css */
+.navbar {
+    position: sticky; /* Sticks the navbar to the top of the viewport */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #0056b3; /* or the desired color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow for better visual separation */
+  }
+  
+  /* Ensure the content can scroll, and navbar remains fixed */
+  .content {
+    min-height: 100vh;
+    overflow-y: auto; /* This makes sure content scrolls if necessary */
+  }
+  
